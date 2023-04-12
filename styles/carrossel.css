@@ -47,6 +47,7 @@
 .descricao__titulo{
     color: var(--laranja);
     font-weight: 700;
+    margin: .5em 0 0 0;
 }
 
 .descricao__titulo-livro{
@@ -61,7 +62,7 @@
 }
 
 .botoes__item{
-    margin: 0 0.5em;
+    margin: 0 .8em;
 }
 
 .botoes__ancora{
