@@ -27,8 +27,8 @@
 .lista-menu {
     display: none;
     position: absolute;
-    top: 100%;
-    width: 60vw;
+    top: 80%;
+    width: 300px;
 }
 
 .container__botao:checked~.lista-menu {
@@ -98,5 +98,24 @@
     .container__imagem-transparente{
         display: none;
     }
+
+    .cabecalho__menu-hamburguer{
+        display: none;
+    }
+
+    .opcoes__botao:checked~.lista-menu{
+        display: block;
+        width: auto;
+    }
+
+    .opcoes__botao{
+        display: none;
+    }
+
+    .lista-menu__titulo{
+        display: none;
+    }
+
+
 
 }
